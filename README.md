@@ -1,6 +1,6 @@
 # npmtest-google-auth-library
 
-#### test coverage for  [google-auth-library (v0.10.0)](https://github.com/google/google-auth-library-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-google-auth-library.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-auth-library) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-auth-library.svg)](https://travis-ci.org/npmtest/node-npmtest-google-auth-library)
+#### basic test coverage for  [google-auth-library (v0.10.0)](https://github.com/google/google-auth-library-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-google-auth-library.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-auth-library) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-auth-library.svg)](https://travis-ci.org/npmtest/node-npmtest-google-auth-library)
 
 #### Google APIs Authentication Client Library for Node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-google-auth-library/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-google-auth-library/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-google-auth-library/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-google-auth-library/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-auth-library/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-auth-library/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-google-auth-library/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-google-auth-library/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-auth-library/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-auth-library/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-google-auth-library/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-google-auth-library/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "prepare": "npm test && npm run lint && npm version patch",
         "test": "npm run lint && npm run coverage"
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 

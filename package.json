@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [google-auth-library (v0.10.0)](https://github.com/google/google-auth-library-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-google-auth-library.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-auth-library) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-auth-library.svg)](https://travis-ci.org/npmtest/node-npmtest-google-auth-library)",
+    "description": "#### basic test coverage for  [google-auth-library (v0.10.0)](https://github.com/google/google-auth-library-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-google-auth-library.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-auth-library) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-auth-library.svg)](https://travis-ci.org/npmtest/node-npmtest-google-auth-library)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "google-auth-library": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.3"
+    "version": "2017.4.27"
 }
